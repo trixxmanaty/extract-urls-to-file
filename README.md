@@ -10,20 +10,23 @@ You can install these packages using pip:
 
 ```bash
 pip install beautifulsoup4 requests
-
+```
 ## Usage
+
 1. Open the Python file link_extractor.py in a text editor.
 2. Modify the following line with your desired URL from which you want to extract links:
 ```
 url = 'https://www.example.com/mypage'
-
+```
 3. If you want to specify a different output file, modify this line:
 ```
 filename = '/path/to/your/output/file.txt'
+```
 
 4. Save the file and run it with Python 3:
 ```
 python link_extractor.py
+```
 
 5. The output file will contain all the unique URLs found on the specified webpage, each URL will be on a new line.
 
